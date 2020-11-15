@@ -1,4 +1,5 @@
-# tourvuetify
+# tourvuetify é uma pequena Aplicação que feita para listar as sugestões de presete de amigo oculto. Agora ninguem precisa mais ficar mandando no zap  e buscando no grupo.
+
 
 ## Project setup
 ```
