@@ -136,7 +136,6 @@
     },
     mounted () {
           this.messageError = this.$store.state.mserro
-      console.log(this.error);
     },
     computed: {
       loading(){

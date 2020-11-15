@@ -54,7 +54,6 @@ const router = new VueRouter({
 })
 
 router.beforeEach((routeTo, routeFrom,  next) => {
-  console.log('router', routeTo.meta)
   if(!routeTo.meta.public && !store.state.token){
     return next({path: '/login'})
   }

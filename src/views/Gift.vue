@@ -13,13 +13,11 @@
       ></v-text-field>
     </v-card-title>
     <v-data-table
-        :locales={pt}
       :headers="headers"
       :items="desserts"
       :search="search"
       item-key="name"
       disable-sort
-      items-per-page="5"
       :footer-props="footerProps"
     >
     <template  v-slot:[`item.actions`]="{ item }">
