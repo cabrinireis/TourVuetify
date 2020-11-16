@@ -14,6 +14,7 @@
         <h1 id="welcome" class="text_welcome display-2 font-weight-bold mb-3">
           {{msg}}
         </h1>
+        <span>Faça login para inserir o seu pedido de presente e saber quem quer o que.</span>
       </v-col>
 
     </v-row>

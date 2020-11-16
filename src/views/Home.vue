@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <HelloWorld msg="Bem vindo ao Natal em Família"/>
+    <HelloWorld msg="Natal Cutia 2020"/>
   </div>
 </template>
 

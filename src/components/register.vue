@@ -40,6 +40,26 @@
         </v-btn>
         </form>
     </validation-observer>
+    <v-row>
+      <v-col cols="12">
+        <v-alert
+          
+          type="info"
+          prominent
+          text
+          elevation="6"
+          width="100%"
+          class="info_sigup"
+        >
+        <span class="text_info">
+        Para se cadastrar não há necessidadde de ter um email, basta digitar um email válido (ex:nome@provedor.com).<br>
+        E Criar uma senha 
+        </span>
+      
+        </v-alert>
+
+      </v-col>
+    </v-row>
     </v-card>
 </v-container>
 </template>
@@ -106,9 +126,12 @@
 
 <style lang="css" scoped>
 @media screen and (min-width: 450px){
-.containerlogin {
-    max-width: 40%;
+  .containerlogin {
+      max-width: 40%;
+  }
 }
-    
-}
+  .v-alert__content,
+  .text_info {
+    font-size: .8rem !important;
+  }
 </style>
